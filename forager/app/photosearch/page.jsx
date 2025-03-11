@@ -1,10 +1,17 @@
-import NavBar from '../../components/NavBar';
+import Link from "next/link";
+import styles from "../../styles/PhotoSearch.module.css"
+function PhotoSearch() {
 
-export default function PhotoSearchPage() {
-  return (
-    <div className="page">
-      <h1>Photo Search Page</h1>
-      <NavBar />
+  return <>
+
+
+    <div className={styles.container}>
+      <img className={styles.img} src="/PhotoSearch.png" alt="sample capture of a mushroom" />
+      <Link href="/dashboard" className={styles.button}></Link>
+      <Link href="/mushroom" className={styles.buttonMushroom}></Link>
+
     </div>
-  );
+
+  </>
 }
+export default PhotoSearch;

@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: relative;
+}
+
+
+.photo {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  box-shadow: 0px 9px 9px gray;
+  border-top: 0.5em white solid;
+  border-right: 0.25em white solid;
+  border-left: 0.25em white solid;
+  border-bottom: 1.5em white solid;
+}
+
+.dangerous {
+  position: absolute;
+}
+
+.percentage {
+  top: 5%;
+  left: 9%;
+  position: absolute;
+  width: 20%;
+  aspect-ratio: 20/16;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  color: white;
+  font-weight: bold;
+}
+
+.warn {
+  position: absolute;
+  width: 15%;
+  top: 6%;
+  left: 30%;
+}
+
+.warnImage {
+  width: 100%;
+  height: 100%;
+}
+
+.green {
+  background-color: #73D89F;
+}
+
+.red {
+  background-color: #FF5050;
+}
+
+.gray {
+  background-color: #A5A5A5;
+}
+
+.name {
+  text-wrap: nowrap;
+  margin-bottom: 10px;
+  font-size: 1em;
+}

@@ -1,0 +1,33 @@
+.container {
+  height: 39px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBar {
+  background-color: white;
+  height: 100%;
+  width: 85%;
+  position: relative;
+
+  border-radius: 15px;
+}
+
+.search {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  padding-left: 20%;
+
+}
+
+.filter {
+  width: 20px;
+}
+
+.magnifyingGlass {
+  position: absolute;
+  top: 25%;
+  left: 3%;
+}

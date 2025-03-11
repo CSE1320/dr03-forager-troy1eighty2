@@ -2,9 +2,9 @@
 ####################### Makefile Template ##############################
 ########################################################################
 # Student settings
-NAME = YOURNAME
-SID = YOURSID
-EMAIL = YOURUTAEMAIL
+NAME = Troy Tran
+SID = 1001705235
+EMAIL = txt5235@mavs.uta.edu
 SEMESTER = SPRING2025
 PROJECT=PROJ03
  

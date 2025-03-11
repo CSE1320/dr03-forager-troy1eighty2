@@ -1,7 +1,12 @@
 import DashboardPage from './dashboard/page';  // Use relative path
 import Sandbox from './sandbox/page';  // Use relative path
+import "./page.css";
 
 export default function Home() {
-  return <DashboardPage />;  // Render the DashboardPage as the default for the '/' route
-  // return <Sandbox />;  // Render the Sandbox as the default for the '/' route
+  return (
+    <div className="container">
+      <DashboardPage />
+    </div>
+  );
 }
+
